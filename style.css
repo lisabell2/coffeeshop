@@ -1,0 +1,107 @@
+#myVideo{
+    width: 70%;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+#myVideo2{
+    width: 25%;
+    margin-top: -95px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color:#b88c59 ;
+   
+}
+h1 {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 40px;
+}
+.quality {
+    display: flex;
+    justify-content: center;
+    color: #c9b094 ;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.since {
+    display: flex;
+    justify-content: center;
+    color: #c9b094 ;
+    font-family:'Coromorant Garamond', serif;
+    font-size: 15px ;
+}
+.first{
+    background-color: #fff7f0;
+}
+.second{
+    background-image: url(istockphoto-1176321625-170667a.jpg);
+}
+
+.features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;    
+    
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color:#CDBBA7;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+h3, img, a {
+    align-self: center;
+}
+.list{
+    background-color:#F4DFD0 ;
+    border-radius: 10px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family:'Coromorant Garamond', serif;
+}
+ins{
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-20deg);
+    color: rgb(105, 62, 12);
+}
+.cta{
+    border-radius: 5px;
+    text-decoration: none;
+    border:crimson 1px solid;
+    background-color:white;
+}
+.cta:hover{
+    background-color: darkolivegreen;
+    color:ghostwhite
+}
+
+
+
+
+
+@media all and (max-width:500px){
+
+    #myVideo2{
+       display: none;
+    }
+    #myVideo{
+        width: 100%;
+        margin: 2px;
+    }
+
+
+
+
+}
+
+
